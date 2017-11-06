@@ -1,0 +1,52 @@
+body{
+	margin: 10px;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #f1f1f1;
+	color: #4a4a4a;
+	font-family: sans-serif;
+}
+
+section{
+	padding: 2;
+	text-align: left;
+}
+
+
+.group{
+	padding: 15px, 15px;
+}
+
+.group.group-odd{
+	padding:5px;
+	background: #fff;
+}
+
+.group .info{
+	font-weight: normal;
+	color:#777;
+}
+
+.group label{
+	padding-bottom: 8px;
+}
+
+.pageHeader{
+	text-align: left;
+	line-height: 3px;
+	padding: 10px;
+}
+.pageSubHeader{
+	width: 250px;
+	height: 45px;
+	float: left;
+	border-right: 1px solid black;
+	padding: 5px;
+}
+.pageSubHeader.odd{
+	background: #fff;
+}
+.boldText{
+	font-weight: bold;
+}
