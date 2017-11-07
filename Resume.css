@@ -11,6 +11,10 @@ div{
 	padding: 2px;
 }
 
+label{
+	font-weight: bold;
+}
+
 section{
 	padding: 2;
 	text-align: left;
