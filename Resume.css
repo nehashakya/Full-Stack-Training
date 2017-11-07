@@ -1,16 +1,53 @@
 body{
-	margin: 10px;
-	padding: 0;
+	margin: 2px;
+	padding: 2px;
 	height: 100%;
-	width: 100%;
 	background: #f1f1f1;
 	color: #4a4a4a;
 	font-family: sans-serif;
 }
 
+div{
+	padding: 2px;
+}
+
 section{
 	padding: 2;
 	text-align: left;
+}
+
+.profilePicture{
+	float: right;
+	border-radius: 50%;
+}
+
+.pageHeader{
+	padding: 10px;
+	height: 125px;
+	text-align: left;
+	line-height: 3px;
+	background: #fff;
+	border-bottom: 2px solid #ff0066; 
+}
+.pageSubHeader{
+	width: 250px;
+	height: 45px;
+	float: left;
+	border-right: 1px solid #ff0066;
+	padding: 5px;
+}
+.pageSubHeader.evenElement{
+	background: #cccccc;
+}
+.pageSubHeader.firstElement{
+	padding-left: 0;
+}
+
+.pageSubHeader.lastElement{
+	border-right-style: none;
+}
+.boldText{
+	font-weight: bold;
 }
 
 
@@ -32,21 +69,3 @@ section{
 	padding-bottom: 8px;
 }
 
-.pageHeader{
-	text-align: left;
-	line-height: 3px;
-	padding: 10px;
-}
-.pageSubHeader{
-	width: 250px;
-	height: 45px;
-	float: left;
-	border-right: 1px solid black;
-	padding: 5px;
-}
-.pageSubHeader.odd{
-	background: #fff;
-}
-.boldText{
-	font-weight: bold;
-}
