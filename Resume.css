@@ -22,11 +22,14 @@ section{
 
 .profilePicture{
 	float: right;
+	right: 10px;
+	top:20px;
 	border-radius: 50%;
 }
 
 .pageHeader{
 	padding: 10px;
+	width: 100%;
 	height: 125px;
 	text-align: left;
 	line-height: 3px;
@@ -34,7 +37,7 @@ section{
 	border-bottom: 2px solid #ff0066; 
 }
 .pageSubHeader{
-	width: 250px;
+	width: 20%;
 	height: 45px;
 	float: left;
 	border-right: 1px solid #ff0066;
